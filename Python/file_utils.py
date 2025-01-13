@@ -1,3 +1,5 @@
+"""Module manipulant des fichiers textes."""
+
 def diff(file_first, file_second):
     """Fonction retournant True si deux fichiers sont différents."""
     with open(file_first,'r',encoding='utf-8') as f1, open(file_second,'r',encoding='utf-8') as f2:
