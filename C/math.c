@@ -10,7 +10,7 @@ float maximum (float n1, float n2 )
 /****************** Recherche du minimum ***********************/
 float minimum (float n1, float n2 )
 {
-   return 0;
+   return (n1 < n2) ? n1:n2;
 }
 
 /******************* Addition de nombres ***********************/
