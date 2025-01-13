@@ -16,5 +16,5 @@ float minimum (float n1, float n2 )
 /******************* Addition de nombres ***********************/
 float addition (float n1, float n2 ) 
 {
-   return 0;
+   return n1+n2;
 }
